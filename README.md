@@ -29,7 +29,7 @@ The project is a mobile phone e-commerce website developed as an assignment for 
 
 ## Interface
 
-- NULL
+<img src="https://github.com/XobazJr/kab-phone/blob/main/user-interface.png">
 
 ## Testing
 
