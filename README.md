@@ -9,7 +9,7 @@ The project is a mobile phone e-commerce website developed as an assignment for 
 
 ## 1 Usecase
 
-- <img src="https://github.com/XobazJr/kab-phone/blob/main/use-case.jpg">
+<img hight="297" width="210" src="https://github.com/XobazJr/kab-phone/blob/main/use-case.jpg">
 
 ## 2 Fully usecase description
 
