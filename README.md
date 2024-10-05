@@ -14,7 +14,7 @@ The project is a mobile phone e-commerce website developed as an assignment for 
 
 ## 1 Usecase
 
-<img hight="297" width="210" src="https://github.com/XobazJr/kab-phone/blob/main/use-case.jpg">
+<img hight="297" width="210" src="https://github.com/xobazjr/kab-phone/blob/main/assets/use-case.jpg">
 
 ## 2 Fully usecase description
 
@@ -22,17 +22,17 @@ The project is a mobile phone e-commerce website developed as an assignment for 
 
 ## Context diagram 
 
-<img hight="500" width="500" src="https://github.com/xobazjr/kab-phone/blob/main/context-diagram.jpg">
+<img hight="500" width="500" src="https://github.com/xobazjr/kab-phone/blob/main/assets/context-diagram.jpg">
 
 ## DID Level 0
 
-<img hight="500" width="500" src="https://github.com/xobazjr/kab-phone/blob/main/dfd-level-0.jpg">
+<img hight="500" width="500" src="https://github.com/xobazjr/kab-phone/blob/main/assets/dfd-level-0.jpg">
 
 ## 2 Sequence diagrams are based on 2 Use case descriptions
 
-<img hight="500" width="500" src="https://github.com/xobazjr/kab-phone/blob/main/sequence-diagram-ssd-0.1.jpg">
+<img hight="500" width="500" src="https://github.com/xobazjr/kab-phone/blob/main/assets/sequence-diagram-ssd-0.1.jpg">
 
-<img hight="500" width="500" src="https://github.com/xobazjr/kab-phone/blob/main/sequence-diagram-ssd-0.2.jpg">
+<img hight="500" width="500" src="https://github.com/xobazjr/kab-phone/blob/main/assets/sequence-diagram-ssd-0.2.jpg">
 
 ## Interface
 
