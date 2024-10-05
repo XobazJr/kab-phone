@@ -30,7 +30,9 @@ The project is a mobile phone e-commerce website developed as an assignment for 
 
 ## 2 Sequence diagrams are based on 2 Use case descriptions
 
-- NULL
+<img hight="500" width="500" src="https://github.com/xobazjr/kab-phone/blob/main/sequence-diagram-ssd-0.1.jpg">
+
+<img hight="500" width="500" src="https://github.com/xobazjr/kab-phone/blob/main/sequence-diagram-ssd-0.2.jpg">
 
 ## Interface
 
