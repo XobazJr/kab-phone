@@ -18,7 +18,50 @@ The project is a mobile phone e-commerce website developed as an assignment for 
 
 ## 2 Fully usecase description
 
-- NULL
+| Use Case Name: | Add item to basket |                                                                                                                                        |
+| :-------- | :-------- | :--------                                                                                                                                            |
+| Scenario: | Customer adding item to basket and see the total price. |                                                                                                        |
+| Triggering Event: | Customer adds an item into the basket. |                                                                                                                 |
+| Brief Description: | First, customer click add an item into the basket. Then the system will return item price and item description. Then calculate total price. |           |
+| Actors: | Customer |                                                                                                                                                         |
+| Related Use Cases: | Including: Stock Check, Item Description |                                                                                                              | 
+| Stakeholders: | Admin: to provide description related to that item from stock. |                                                                                             |
+| Preconditions: | Item that customer added. |                                                                                                                                 |
+| Postconditions: | -	Show an error if item is out of stock. |                                                                                                                 |
+| Flow of Activities: | Actor | System                                                                                                                                         |
+|           | 1.	Customer is looking for a wanted item from the store front page. |                                                                                           |
+|           | 2.	Customer clicked add item to the basket. 2a. if out of stock, go back to step 1. | 2.1 System check if item is not empty.                                    |
+|           | 2.2 Then return the price to customer. | 2.2	Then return the price to customer.                                                                                 |
+|           | 3.	Customer adds quantity they want into the specified item in the basket. |                                                                                    | 
+|           | 4.	Customer place an order. |                                                                                                                                   |
+| Exception Conditions: | 2. When item is out of stock. |                                                                                                                      |
+|           | 3. When item is not enough in stock. |                                                                                                                           |
+
+##
+<br/>
+
+| Use Case Name: | Place Order |                                                                                                                                                               |
+| :-------- | :-------- | :--------                                                                                                                                                            |
+| Scenario: | Customer is adding item into basket, then make a payment. |                                                                                                                      |
+| Triggering Event: | Add an item into the basket |                                                                                                                                            |
+| Brief Description: | At first, customer is select the prefer item. Then add it into basket. System will check if item is ready for sell. If yes user will make payment, and done |           |
+| Actors: | Customer |                                                                                                                                                                         |
+| Related Use Cases: | Including: Stock Check, Item Description, Payment |                                                                                                                     | 
+| Stakeholders: | Admin: to provide stock, and item description. |                                                                                                                             |
+|  | Bank: to provide payment process. |                                                                                                                                                       |
+| Preconditions: | Item that customer added. |                                                                                                                                                 |
+| Postconditions: | -	Show an error if item is out of stock.          |                                                                                                                        |
+|  | -	Show an error if payment process failed.          |                                                                                                                                    |
+|  | -	Show success page if everything goes correctly.          |                                                                                                                             |
+| Flow of Activities: | Actor | System                                                                                                                                                         |
+|           | 1.	Customer selects an item. |                                                                                                                                                  |
+|           | 2.	Customer add it into basket. | 2.1 System check for stock.                                                                                                                   | 
+|           | 3.	Customer confirm an order. | 2.2 If stock is empty then return to customer.                                                                                                  | 
+|           | 4.	Customer making a payment. 4a. if payment failed, goes to 2. | 4.1 System contact the payment provider.                                                                      |
+|           | 5.	Order placement success. | 4.2 System return payment status.                                                                                                                 |
+| Exception Conditions: | 2. When item is out of stock. |                                                                                                                                      |
+|           | 4. When payment is not success. |                                                                                                                                                |
+
 
 ## Context diagram 
 
