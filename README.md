@@ -83,7 +83,7 @@ The project is a mobile phone e-commerce website developed as an assignment for 
 
 ## Testing
 
-- NULL
+<img hight="500" width="500" src="https://github.com/xobazjr/kab-phone/blob/main/assets/interface-structure-diagram.jpg">
 
 
 
